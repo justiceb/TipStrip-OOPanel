@@ -12,21 +12,24 @@
 		<Item Name="TipPanelHandle.lvclass" Type="LVClass" URL="../Classes/TipPanelHandle/TipPanelHandle.lvclass"/>
 	</Item>
 	<Item Name="Subvis" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="AskChildToShow.vi" Type="VI" URL="../SubVIs/AskChildToShow.vi"/>
-		<Item Name="content size.ctl" Type="VI" URL="../SubVIs/content size.ctl"/>
 		<Item Name="get working area.vi" Type="VI" URL="../SubVIs/get working area.vi"/>
 		<Item Name="Hide.vi" Type="VI" URL="../SubVIs/Hide.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
-		<Item Name="Loop Data Parent.ctl" Type="VI" URL="../SubVIs/Loop Data Parent.ctl"/>
 		<Item Name="NewPanelCompare.vi" Type="VI" URL="../SubVIs/NewPanelCompare.vi"/>
+		<Item Name="Show.vi" Type="VI" URL="../SubVIs/Show.vi"/>
+		<Item Name="TipStrip position math.vi" Type="VI" URL="../SubVIs/TipStrip position math.vi"/>
+		<Item Name="update front panel size.vi" Type="VI" URL="../SubVIs/update front panel size.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Loop Data Parent.ctl" Type="VI" URL="../SubVIs/Loop Data Parent.ctl"/>
 		<Item Name="PanelMap.ctl" Type="VI" URL="../SubVIs/PanelMap.ctl"/>
 		<Item Name="PanelMapData.ctl" Type="VI" URL="../SubVIs/PanelMapData.ctl"/>
 		<Item Name="refs.ctl" Type="VI" URL="../SubVIs/refs.ctl"/>
-		<Item Name="Show.vi" Type="VI" URL="../SubVIs/Show.vi"/>
 		<Item Name="tipstrip action.ctl" Type="VI" URL="../SubVIs/tipstrip action.ctl"/>
-		<Item Name="TipStrip position math.vi" Type="VI" URL="../SubVIs/TipStrip position math.vi"/>
 		<Item Name="tipstrip UE data.ctl" Type="VI" URL="../SubVIs/tipstrip UE data.ctl"/>
 		<Item Name="tipstrip_screens.ctl" Type="VI" URL="../SubVIs/tipstrip_screens.ctl"/>
-		<Item Name="update front panel size.vi" Type="VI" URL="../SubVIs/update front panel size.vi"/>
 	</Item>
 </Library>
